@@ -9,7 +9,7 @@ Integrante(s): Robinson Abraham
 | Item | Descrição |
 |---|---|
 | Nome do repositório | `localeats-ci-laboratorio` |
-| Link do repositório | REPOSITORY_URL_PLACEHOLDER |
+| Link do repositório | <https://github.com/robinson-abraham/localeats-ci-laboratorio> |
 
 Estrutura de diretórios utilizada:
 
@@ -35,7 +35,7 @@ localeats-ci-laboratorio/
 |---|---|
 | Título da Issue | Implementar cálculo do total do pedido |
 | Objetivo da funcionalidade | Calcular o total de um pedido do LocalEats considerando itens, quantidade, taxa de entrega e desconto percentual |
-| Link da Issue | FEATURE_ISSUE_URL_PLACEHOLDER |
+| Link da Issue | <https://github.com/robinson-abraham/localeats-ci-laboratorio/issues/1> |
 
 ## 3. Teste Automatizado
 
@@ -43,7 +43,7 @@ localeats-ci-laboratorio/
 |---|---|
 | Tipo de teste | Unitário |
 | Objetivo do teste | Validar o cálculo do total do pedido e regras de validação para entradas inválidas |
-| Link para o arquivo do teste | TEST_FILE_URL_PLACEHOLDER |
+| Link para o arquivo do teste | <https://github.com/robinson-abraham/localeats-ci-laboratorio/blob/main/tests/test_order.py> |
 
 Código principal do teste criado:
 
@@ -72,7 +72,7 @@ def test_calcula_total_do_pedido_com_taxa_e_desconto():
 |---|---|
 | Nome do workflow | Quality |
 | Evento que dispara a execução | `push`, `pull_request` e `workflow_dispatch` |
-| Link para o arquivo do workflow | WORKFLOW_FILE_URL_PLACEHOLDER |
+| Link para o arquivo do workflow | <https://github.com/robinson-abraham/localeats-ci-laboratorio/blob/main/.github/workflows/quality.yml> |
 | Link de uma execução do workflow | WORKFLOW_RUN_URL_PLACEHOLDER |
 
 Código do workflow:
@@ -133,6 +133,6 @@ jobs:
 |---|---|
 | Título do defeito | Validar quantidade negativa ou zero no cálculo do pedido |
 | Severidade | Média |
-| Link da Issue | BUG_ISSUE_URL_PLACEHOLDER |
+| Link da Issue | <https://github.com/robinson-abraham/localeats-ci-laboratorio/issues/2> |
 
 O defeito simulado foi a possibilidade de calcular pedidos com quantidade inválida. Ele foi identificado ao criar um teste unitário cobrindo quantidade igual a zero. A correção foi adicionar validação na função `calculate_order_total`, impedindo quantidade menor ou igual a zero. Após a correção, todos os testes passaram localmente e no pipeline.
