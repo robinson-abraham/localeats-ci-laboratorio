@@ -74,7 +74,7 @@ def test_calcula_total_do_pedido_com_taxa_e_desconto():
 | Nome do workflow | Quality |
 | Evento que dispara a execução | `push`, `pull_request` e `workflow_dispatch` |
 | Link para o arquivo do workflow | <https://github.com/robinson-abraham/localeats-ci-laboratorio/blob/main/.github/workflows/quality.yml> |
-| Link de uma execução do workflow | <https://github.com/robinson-abraham/localeats-ci-laboratorio/actions/runs/28837483825> |
+| Link de uma execução do workflow | <https://github.com/robinson-abraham/localeats-ci-laboratorio/actions/runs/28837508191> |
 
 Código do workflow:
 
