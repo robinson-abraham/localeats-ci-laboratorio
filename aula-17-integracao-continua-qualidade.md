@@ -25,6 +25,7 @@ localeats-ci-laboratorio/
 ├── aula-16-qualidade-metodologias-ageis.md
 ├── aula-17-integracao-continua-qualidade.md
 ├── order.py
+├── pytest.ini
 ├── README.md
 └── requirements.txt
 ```
@@ -73,7 +74,7 @@ def test_calcula_total_do_pedido_com_taxa_e_desconto():
 | Nome do workflow | Quality |
 | Evento que dispara a execução | `push`, `pull_request` e `workflow_dispatch` |
 | Link para o arquivo do workflow | <https://github.com/robinson-abraham/localeats-ci-laboratorio/blob/main/.github/workflows/quality.yml> |
-| Link de uma execução do workflow | WORKFLOW_RUN_URL_PLACEHOLDER |
+| Link de uma execução do workflow | <https://github.com/robinson-abraham/localeats-ci-laboratorio/actions/runs/28837483825> |
 
 Código do workflow:
 
@@ -125,7 +126,7 @@ jobs:
 | Quantidade de testes executados | 5 |
 | Quantidade de testes aprovados | 5 |
 | Quantidade de testes com falha | 0 |
-| Status final do pipeline | PIPELINE_STATUS_PLACEHOLDER |
+| Status final do pipeline | Aprovado (`success`) |
 
 ## 6. Registro de Defeito
 

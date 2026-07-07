@@ -5,12 +5,14 @@ on:
     paths:
       - "order.py"
       - "tests/**"
+      - "pytest.ini"
       - "requirements.txt"
       - ".github/workflows/quality.yml"
   pull_request:
     paths:
       - "order.py"
       - "tests/**"
+      - "pytest.ini"
       - "requirements.txt"
       - ".github/workflows/quality.yml"
   workflow_dispatch:
@@ -36,4 +38,3 @@ jobs:
 
       - name: Executar testes
         run: pytest -q
-

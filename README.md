@@ -27,6 +27,7 @@ localeats-ci-laboratorio/
 ├── aula-16-qualidade-metodologias-ageis.md
 ├── aula-17-integracao-continua-qualidade.md
 ├── order.py
+├── pytest.ini
 ├── README.md
 └── requirements.txt
 ```
